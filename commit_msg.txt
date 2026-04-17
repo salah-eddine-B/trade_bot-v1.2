@@ -1,0 +1,8 @@
+feat: balance-based SL, account info in alerts, file logging, error resilience, fix /trades
+
+- SL now calculated from account balance using RISK_PERCENT (13% default), ~8 USD on a 60 USD account
+- Startup message and position open/close alerts now include full account snapshot (balance, equity, free margin, leverage, open P&L)
+- /status command shows account info alongside open positions
+- Added file logging to bot.log with timestamps and log levels covering signals, invalid signals, trade results, and errors
+- All handlers and the monitor loop wrapped in try/except so a crash never kills the script
+- Fixed /trades command (closure bug in guard wrapper + proper JSON error handling)
