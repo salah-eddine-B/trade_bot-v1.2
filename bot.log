@@ -2971,3 +2971,9 @@ Contact Now
 2026-04-17 19:45:36,729 [INFO] Bot is running...
 2026-04-17 19:45:36,795 [INFO] Monitor started — tracking 0 existing position(s)
 2026-04-17 19:45:36,824 [INFO] Position monitor active → notifying 5611063972
+2026-04-17 23:33:23,152 [INFO] MT5 connected
+2026-04-17 23:33:23,295 [INFO] Connecting to 149.154.167.91:443/TcpFull...
+2026-04-17 23:33:23,349 [INFO] Connection to 149.154.167.91:443/TcpFull complete!
+2026-04-17 23:33:24,099 [INFO] Bot is running...
+2026-04-17 23:33:24,194 [INFO] Monitor started — tracking 0 existing position(s)
+2026-04-17 23:33:24,373 [INFO] Position monitor active → notifying 5611063972
